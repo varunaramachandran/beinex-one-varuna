@@ -1,0 +1,35 @@
+.box {
+    /* background-color: aqua; */
+    /* margin: 3px; */
+}
+.dashboardSec{
+    margin-top: 4%;
+    /* background-color:aqua; */
+}
+.box{
+    background-color: white;
+    border-radius: 3px;
+    margin:5px;
+    padding: 5px;
+}
+.number-bold{
+    color: #757575;
+    font-weight: bold;
+    font-size: 35px;
+}
+.text-right{
+    font-size: 13px;
+    color: #757575;
+
+}
+
+/* .box-inner.active:before{
+    border-left-color:#ffa64d */
+    /* content:"";
+    width:5px;
+    height:100%;
+    background-color:#ffa64d;
+    position: absolute;
+    left: 0px;
+    top: 0px; */
+  /* } */

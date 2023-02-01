@@ -1,0 +1,53 @@
+
+    <aside id="sidebar-wrapper">
+      <div class="sidebar-brand">
+        <!-- <h2>Logo</h2> -->
+        
+      </div>
+      <div id="navbar-wrapper">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header" (click)="toggleClassSide()">
+              <a  class="navbar-brand" id="sidebar-toggle">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <ul class="sidebar-nav">
+        <li routerLinkActive="active" [routerLink]="['home']" >
+          <a  ><i class="fa fa-home"></i>Home</a>
+        </li>
+        <li routerLinkActive="active"  
+        [routerLink]="['dashboard']"
+        >
+          <a  ><i class="fa fa-plug"></i>Dashboard</a>
+        </li>
+        <!-- <li>
+          <a ><i class="fa fa-user"></i>Users</a>
+        </li> -->
+      </ul>
+    </aside>
+
+    <div id="navbar-wrapper" style="position: fixed">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- <div class="navbar-header" (click)="toggleClass()">
+            <a  class="navbar-brand" id="sidebar-toggle">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+          </div> -->
+          <a  class="navbar-brand d-flex align-items-center">
+            <img src="../../../assets/logo.svg" alt ="">
+          </a>
+          <div>Executive Dashboard</div>
+
+          <div class="nav-right">
+          <a ><i class="fa fa-user"></i></a>
+          <a ><i class="fa fa-gear"></i></a>
+        </div>
+        </div>
+      </nav>
+    </div>
+  
